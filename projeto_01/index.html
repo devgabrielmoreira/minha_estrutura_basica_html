@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu Site Iniciante</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Este é um site iniciante em HTML">
+    <meta name="keywords" content="HTML, iniciante, exemplo">
+    <meta name="Gabriel Moreira" content="Nice">
+  </head>
+  <body>
+    <style>
+        /* Define a cor de fundo e a fonte do corpo */
+        body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        }
+        /* Define o estilo do cabeçalho */
+        header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        }
+        /* Define o estilo do título */
+        h1 {
+        margin: 0;
+        font-size: 32px;
+        }
+
+        /* Define o estilo da navegação */
+        nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+        nav li {
+        display: inline-block;
+        margin-right: 20px;
+        }
+        nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        }
+        /* Define o estilo das seções */
+        section {
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        /* Define o estilo dos títulos das seções */
+        section h2 {
+        margin-top: 0;
+        }
+        /* Define o estilo do formulário de contato */
+        form label {
+        display: block;
+        margin-bottom: 10px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        }
+        form textarea {
+        height: 150px;
+        }
+        form button[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        }
+        /* Define o estilo do rodapé */
+        footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        }
+    </style>
+    <header>
+      <h1>Meu Site Iniciante</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Bem-vindo ao meu site iniciante em HTML</h2>
+        <p>Este é um exemplo simples de como criar um site em HTML.</p>
+      </section>
+      <section>
+        <h2>Sobre</h2>
+        <p>Este site foi criado para mostrar como é fácil criar um site em HTML, mesmo para iniciantes.</p>
+      </section>
+      <section>
+        <h2>Contato</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Meu Site Iniciante</p>
+    </footer>
+  </body>
+</html>
